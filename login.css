@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  
+  
+  
+  .login-box {
+    position: absolute;
+    top:12%;
+    left:34%;
+    width: 400px;
+    padding: 70px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    
+    margin: 0 0 30px;
+    padding-right: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #03e9f4 ;
+  
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    outline: none;
+    background: transparent;
+  
+  }
+  
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    border-bottom-style: solid;
+    transition:  0.5s ,transform 0.5s;
+  
+  }
+  
+  
+  form input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    transition: 0.8s;
+    border-style: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #141e30;
+    position: relative;
+  }
+  
+  
+  form input[type="submit"]:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+                transform: scale(1.2);
+                
+  }
+  
+  .user-box input::placeholder{
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.507);
+    font-weight: 100;
+  
+  }
+  
+  .user-box input:focus::placeholder{
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: #03e9f4;
+  }
+  
+  
+  
+  
+  
+  .sign{
+    position: relative;
+    left: 80%;
+    bottom: 40px;
+    color: #03e9f4;
+    transition:  0.5s ;
+  }
+  
+  .sign:hover{
+    color: #243b55;
+    text-shadow: 2px 2px 2px turquoise;
+    
+  }
+  
+  
+  
+  
+  .check{
+  color: white;
+  font-family: cursive;
+  }
+  .check a{
+    color:#03e9f4 ;
+    font-family: cursive;
+  }
+  
+  .check a:hover{
+    color:#243b55;
+  }
